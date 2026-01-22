@@ -27,11 +27,11 @@
   </head>
 
   <body class="d-flex flex-column">
-    <%= render 'layouts/navigation' %>
+      <%= render 'layouts/navigation' %>
 
-    <main class="flex-grow-1">
-      <%= render 'layouts/messages' %>
-      <%= yield %>
+      <main id="page-content">
+        <%= render 'layouts/messages' %>
+        <%= yield %>
     </main>
 
     <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
